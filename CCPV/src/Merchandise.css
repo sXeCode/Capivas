@@ -1,0 +1,53 @@
+.Merchandise {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Merchandise h2 {
+  margin-top: 0;
+  font-size: 32px;
+  color: #ff6600;
+}
+
+.Merchandise-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Merchandise-item {
+  background-color: #000;
+  border: 1px solid #ff6600;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.Merchandise-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.Merchandise-item p {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Merchandise-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Merchandise-item {
+    max-width: 100%;
+  }
+}

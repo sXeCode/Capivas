@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, main, footer {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #000;
+  color: #ff6600;
+  padding: 20px;
+  border-bottom: 2px solid #ff6600;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.App-header p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+/* Section Styles */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 32px;
+  color: #ff6600;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Contact Button */
+.Contact-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Contact-button:hover {
+  background-color: #cc5500;
+  transform: scale(1.05);
+}
+
+/* Social Links */
+.Social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.Social-links a {
+  color: #ff6600;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.Social-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+  color: #ff6600;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #ff6600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 32px;
+  }
+
+  .App-header p {
+    font-size: 16px;
+  }
+
+  main, section, footer {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  .Contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
